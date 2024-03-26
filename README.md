@@ -19,9 +19,9 @@ git commit -m "Initial commit"
 ```
 
 ## 2. Ajouter le .gitignore
-Assurez-vous d'ignorer les fichiers non nécessaires en ajoutant un fichier .gitignore. Vous pouvez utiliser un template correct pour un projet Godot.
+Assurez-vous d'ignorer les fichiers non nécessaires en ajoutant un fichier .gitignore. J'ai pris l'exemple du contenue du .gitignore fournis ici : https://github.com/github/gitignore/blob/main/Godot.gitignore pour m'inspirer. 
 
-Le contenu du fichier .gitignore que j'utilise :
+Je l'ai un peu modifier pour faire fonctionner la CI (lier a un problème d'un fichier export_presets.cfg, je reviens dessus plus tard), mon fichier est comme celui-ci :
 ```bash
 # Godot 4+ specific ignores
 .godot/
