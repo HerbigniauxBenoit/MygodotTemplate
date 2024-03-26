@@ -1,7 +1,7 @@
 # 🎮 Guide d'utilisation de votre projet Godot 
 
 Ce guide vous aidera à démarrer avec un nouveau projet Godot et la mise en place d'une CI vers un déploiement vers itch.io. Il permet de simplifier vos développements/tests lors de vos game jam.
-Il se base sur le template que vous pouvez trouver ici: https://github.com/bitbrain/godot-gamejam avec mes commandaires/améliorations sur ça mise en place !
+Il se base sur le template que vous pouvez trouver ici: https://github.com/bitbrain/godot-gamejam avec mes commandaires/améliorations sur ça mise en place.
 
 ## 1. 🚧 Création de votre nouveau repository
 
@@ -40,7 +40,7 @@ mono_crash.*.json
 ## 3. 📁 Créer un projet Godot
 1. **Ouvrir Godot :** Lancez l'application Godot sur votre ordinateur.
 2. **Créer un nouveau projet :** Sur l'écran d'accueil de Godot, cliquez sur "Nouveau projet".
-3. **Configurer les paramètres du projet :** Choisissez un emplacement pour votre projet et donnez-lui un nom.
+3. **Configurer les paramètres du projet :** Choisissez l'emplacement où vous avez créer votre repository pour votre projet et donnez-lui un nom.
 4. **Choisir un modèle de projet :** Sélectionnez le modèle de projet qui correspond le mieux à vos besoins. Vous pouvez choisir entre "Projet 2D", "Projet 3D", "Projet 2D et 3D" ou "Modèle vide".
 5. **Créer le projet :** Cliquez sur "Créer le projet" pour créer votre nouveau projet Godot.
 6. **Explorez le projet :** Une fois le projet créé, vous serez dirigé vers l'interface de Godot où vous pourrez commencer à travailler sur votre jeu ou votre application.
