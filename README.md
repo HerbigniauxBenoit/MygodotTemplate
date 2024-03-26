@@ -44,3 +44,9 @@ mono_crash.*.json
 4. **Choisir un modèle de projet :** Sélectionnez le modèle de projet qui correspond le mieux à vos besoins. Vous pouvez choisir entre "Projet 2D", "Projet 3D", "Projet 2D et 3D" ou "Modèle vide".
 5. **Créer le projet :** Cliquez sur "Créer le projet" pour créer votre nouveau projet Godot.
 6. **Explorez le projet :** Une fois le projet créé, vous serez dirigé vers l'interface de Godot où vous pourrez commencer à travailler sur votre jeu ou votre application.
+
+
+Todo: 
+- Explications de la configuration de la pipelines
+- Explications de la structure des fichiers
+- 
