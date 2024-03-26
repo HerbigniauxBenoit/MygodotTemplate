@@ -45,8 +45,20 @@ mono_crash.*.json
 5. **Créer le projet :** Cliquez sur "Créer le projet" pour créer votre nouveau projet Godot.
 6. **Explorez le projet :** Une fois le projet créé, vous serez dirigé vers l'interface de Godot où vous pourrez commencer à travailler sur votre jeu ou votre application.
 
+## 4. Lier le projet itch.io à la pipeline
+1. Accédez à l'URL [https://itch.io/user/settings](https://itch.io/user/settings) et trouvez la section "Developer/API Keys".
+2. Générez une nouvelle clé API et copiez-la.
+3. Accédez aux paramètres de votre compte GitHub.
+4. Dans la section "Secrets and variables", sélectionnez "Actions".
+5. Créez un nouveau secret nommé "BUTLER_API_KEY" et collez votre clé API précédemment générée.
+6. Retournez sur itch.io et créez un nouveau projet.
+7. Retournez sur GitHub et créez deux nouveaux secrets : 
+   - "ITCHIO_GAME" avec le nom de votre jeu créé sur itch.io.
+   - "ITCHIO_USERNAME" avec votre pseudo sur itch.io.
+
+Assurez-vous que toutes les étapes sont suivies correctement pour garantir le bon fonctionnement de l'intégration entre itch.io et GitHub.
+
 
 Todo: 
-- Explications de la configuration de la pipelines
 - Explications de la structure des fichiers
 - 
