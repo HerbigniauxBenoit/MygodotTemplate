@@ -19,10 +19,8 @@ Pour cela suivez ces étapes :
    ```
 
 ## 2. ⛔ Ajouter le .gitignore
-Assurez-vous d'ignorer les fichiers non nécessaires en ajoutant un fichier .gitignore. J'ai pris l'exemple du contenue du .gitignore fournis ici : https://github.com/github/gitignore/blob/main/Godot.gitignore pour m'inspirer. 
-
-Je l'ai un peu modifier pour faire fonctionner la CI (lier a un problème d'un fichier export_presets.cfg, je reviens dessus plus tard), mon fichier est comme celui-ci :
-```bash
+Ajoutez votre fichiers .gitignore pour ignorer les fichiers non nécessaires. J'ai pris l'exemple du contenue du .gitignore fournis ici : https://github.com/github/gitignore/blob/main/Godot.gitignore pour m'inspirer. Je l'ai un peu modifier pour faire fonctionner la CI (lier a un problème d'un fichier export_presets.cfg, je reviens dessus plus tard), mon fichier est comme celui-ci :
+```
 # Godot 4+ specific ignores
 .godot/
 
@@ -37,3 +35,12 @@ export.cfg
 .mono/
 data_*/
 mono_crash.*.json
+```
+
+## 3. 📁 Créer un projet Godot
+1. **Ouvrir Godot :** Lancez l'application Godot sur votre ordinateur.
+2. **Créer un nouveau projet :** Sur l'écran d'accueil de Godot, cliquez sur "Nouveau projet".
+3. **Configurer les paramètres du projet :** Choisissez un emplacement pour votre projet et donnez-lui un nom.
+4. **Choisir un modèle de projet :** Sélectionnez le modèle de projet qui correspond le mieux à vos besoins. Vous pouvez choisir entre "Projet 2D", "Projet 3D", "Projet 2D et 3D" ou "Modèle vide".
+5. **Créer le projet :** Cliquez sur "Créer le projet" pour créer votre nouveau projet Godot.
+6. **Explorez le projet :** Une fois le projet créé, vous serez dirigé vers l'interface de Godot où vous pourrez commencer à travailler sur votre jeu ou votre application.
