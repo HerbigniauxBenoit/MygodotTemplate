@@ -28,10 +28,6 @@ jobs:
         with:
           path: .godot/imported/
           key: import-assets-${{ runner.os }}-${{ github.sha }}
-      - name: install wine
-        run: |
-          sudo apt install wine64
-          echo "WINE_PATH=$(which wine64)" >> $GITHUB_ENV
       - name: Export Game using Godot
         uses: firebelley/godot-export@v5.2.1
         with:
@@ -40,7 +36,6 @@ jobs:
           relative_project_path: "./godot"
           archive_output: true
           cache: false
-          wine_path: ${{ env.WINE_PATH }}
       - name: Upload HTML5
         uses: actions/upload-artifact@v4
         with:
